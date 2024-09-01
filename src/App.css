@@ -1,0 +1,25 @@
+@import url("https://fonts.cdnfonts.com/css/neutra-text-alt?styles=16189,16192,16193,16190,16191");
+
+* {
+  font-family: "Neutra Text", Arial, sans-serif !important;
+  font-size: 14px;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: fit-content;
+}
